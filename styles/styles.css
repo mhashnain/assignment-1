@@ -6,6 +6,12 @@
     font-style: normal;
 }
 
+/* header */
+.header-margin{
+    margin-bottom: 30px;
+}
+
+
 /* ---------nav style starts here--------- */
 
 .nav-container{
@@ -13,6 +19,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px;
+    margin: ;
 }
 
 .nav-title{
@@ -54,4 +61,96 @@
 .contact-button{
     text-decoration: none;
     color: #FFFFFF;
+}
+
+/* --------main style starts here----- */
+main{
+    width: 1140px;
+    height: 1395px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+}
+
+
+.section-outer-content{
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* ------Section-1 style start here------- */
+.section-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+
+.section-1-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1-content{
+    margin-top: 20px;
+}
+
+.section-1-img{
+    margin-left: 80px;
+}
+
+
+/* ----------section-2 style starts here------- */
+.section-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.section-2-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2-content{
+    margin-top: 20px;
+}
+
+.section-2-img img{
+    margin-left: 80px;
+    float: left;
+}
+
+/* ----------section-2 style starts here------- */
+.section-3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.section-3-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-content{
+    margin-top: 20px;
+}
+
+.section-2-img img{
+    margin-left: 80px;
+    float: left;
+}
+
+.inspiration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
